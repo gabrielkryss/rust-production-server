@@ -1,24 +1,19 @@
-# Rust10x Web App Blueprint for Production Coding
+# Rust Production Server
 
-More info at: https://rust10x.com/web-app
+This is my repo to practice and learn production coding. A place where I experiment and figure out how to make a production grade web server from scartch. Hence this repo will slowly evolve as I learn new practices and learning how to implement them in Rust.
 
-## Rust10x Web App YouTube Videos:
+## References and Resources
 
+Much appreciation and thanks to Jeremy Chone and his production coding tutorial series! I learned a tremendous ammount from his tutorial series as well as discussing software development with him on his discord server. Needlesss to say, his material is a main inspiration for this on going project
 - [Episode 01 - Rust Web App - Base Production Code](https://youtube.com/watch?v=3cA_mk4vdWY&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-    - [Topic video - Code clean -  `#[cfg_attr(...)]` for unit test](https://www.youtube.com/watch?v=DCPs5VRTK-U&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-	- [Topic video - The Reasoning Behind Differentiating ModelControllers and ModelManager](https://www.youtube.com/watch?v=JdLi69mWIIE&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-	- [Topic video - Base64Url - Understanding the Usage and Significance of Base64URL](https://www.youtube.com/watch?v=-9K7zNgsbP0&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
+- [Rust Axum Full Course](https://youtube.com/watch?v=XZtlD_m59sM&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
 
-- [Episode 02 - Sea-Query (sql builder) & modql (mongodb like filter)](https://www.youtube.com/watch?v=-dMH9UiwKqg&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
+- [Crust of Rust Series: Decrusting the axum crate](https://www.youtube.com/watch?v=Wnb_n5YktO8)
+- [12 Factor App](https://12factor.net/)
 
-- [Episode 03 - Cargo Workspace (multi-crates)](https://www.youtube.com/watch?v=zUxF0kvydJs&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-	- [AI-Voice-Remastered](https://www.youtube.com/watch?v=iCGIqEWWTcA&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
+## Future work
 
-- [Episode 04 - Multi-Scheme Password Hashing](https://www.youtube.com/watch?v=3E0zK5h9zEs&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-
-- Other Related videos: 
-	- [Rust Axum Full Course](https://youtube.com/watch?v=XZtlD_m59sM&list=PL7r-PXl6ZPcCIOFaL7nVHXZvBmHNhrh_Q)
-
+Evenetually I'd like to deploy a k8s cluster with this repo but I am currently learning Kubernetes.
 
 ## Starting the DB
 
