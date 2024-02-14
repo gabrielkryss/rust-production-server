@@ -10,6 +10,7 @@ Much appreciation and thanks to Jeremy Chone and his production coding tutorial 
 
 - [Crust of Rust Series: Decrusting the axum crate](https://www.youtube.com/watch?v=Wnb_n5YktO8)
 - [12 Factor App](https://12factor.net/)
+- [Zero to Production](https://www.zero2prod.com/index.html?country_code=CA)
 
 ## Future work
 
